@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-image: url(Img/algas.jpg);
+    background-color: #004e5ad5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Lora', serif;
+    font-size: 1.4em;
+    color: #f1f1f1;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav img{
+    text-align: center;
+    align-items: center;
+}
+ ul li{
+    margin: 30px;
+    margin-right: none;
+    float: left;
+    list-style: none;
+}
+a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+li:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+img{
+    width: 70%;
+    object-position: center;
+}
+.opacidade{
+    background-color:rgba(255, 255, 255, 0.315);
+    width: 30em;
+    float:center;
+    border-radius: 180%;
+    opacity: 1.1;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    background-color: rgba(19, 82, 43, 0.301);
+    border-radius: 10px;
+    color: #f1f1f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.0em;
+    padding-left: 10px;
+}
+@media screen and (min-width: 768px){
+
+}

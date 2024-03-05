@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(Img/algas.jpg);
+    background-color: #004e5ad5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Lora', serif;
+    font-size: 1.4em;
+    color: #f1f1f1;
+    align-items: center;
+}
+a{
+    color: #ffffffd7;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition-duration: 0.8s, 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a:hover{
+    cursor: pointer;
+    color: rgba(219, 219, 219, 0.438);
+}
+table{
+    background-color: rgba(255, 255, 255, 0.349);
+    width: 30%;
+    border-radius: 35px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    border-radius: 10px;
+    color: #ffffff;
+    font-family:  'Lora', serif;
+    font-size: 1.4em;
+}
+input{
+    font-family:  'Lora', serif;
+    font-size: 0.7em;
+}
+input[type=file] {
+    color: #fff;
+}
